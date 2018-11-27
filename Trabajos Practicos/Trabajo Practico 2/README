@@ -9,12 +9,12 @@ Descargar la base de datos test.sql
 1.3 Modificar personas (Losdel10)-> ok
 
 2. Relaciones entre Personas, Organizaciones, Domicilio
-2.1 Asignar una organizacion a una persona (Machos?)
-2.2 Asignar el domicilio a una persona (ATA)
-2.3 Mostrar todos los datos (de organización y domicilio) en pantalla (Losdel10)
+2.1 Asignar una organizacion a una persona (Machos?) ------> ok
+2.2 Asignar el domicilio a una persona (ATA) ------> ok
+2.3 Mostrar todos los datos (de organización y domicilio) en pantalla (Losdel10) ------> ok
 
 3. Crear formulario
 3.1 Permitir la carga de personas (Kari) LISTO!
-3.2 Permitir la carga de organizaciones (Kari)
-3.3 Permitir la carga de domicilios (Kari)
+3.2 Permitir la carga de organizaciones (Kari) ------> ok
+3.3 Permitir la carga de domicilios (Kari) ------> ok
 
