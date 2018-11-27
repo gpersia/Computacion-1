@@ -1,7 +1,7 @@
 README
 
 Previo
-Descargar la base de datos test.sql
+Descargar la base de datos computacion.sql
 
 1. Crear tres métodos (Alta, Baja y Modificación) que permita:
 1.1 Crear personas (Machos?)------> ok
