@@ -30,6 +30,7 @@ class Persona
         void eliminar(string);
         void recibir(string,string,string,string);
         void modificar(string,string,string,string);
+
     protected:
 
     private:

@@ -32,7 +32,6 @@ void Domicilio::inicio(){
     cout<<"<link href='http://localhost/bootstrap.css' rel='stylesheet'>"<<endl;
     cout << "</head>" <<endl;
     cout << "<body>   <div class='container'>"<<endl;
-    //  this->listar();
     cout<<"<div class='centrar'><h3>Crear Domicilio</h3></div>"<<endl;
     cout<<"<form  method='post'>"<<endl;
     cout<<"<label for='calle'>Calle</label>"<<endl;

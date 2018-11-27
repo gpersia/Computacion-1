@@ -25,6 +25,7 @@ int main (int argc, char* const argv[]) {
 
   cout<<"Content-type: text/html"<<endl<<endl;
 
+
   if(Post.find("button_eliminar_form")!=Post.end())
   {
     persona.eliminar(Post["eliminar_id"]);

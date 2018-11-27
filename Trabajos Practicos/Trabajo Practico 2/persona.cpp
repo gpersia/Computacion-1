@@ -22,27 +22,28 @@ Persona::Persona(long dni, int id, string apellido, string nombre)
 }
 
 void Persona::inicio(){
-    cout << "<body><div class='container'>"<<endl;
+    cout<<"<html><head>"<<endl;
+    cout<<"<link href='http://localhost/bootstrap.css' rel='stylesheet'>"<<endl;
+    cout << "</head>" <<endl;
     cout<<"<div class='centrar'><h3>Personas</h3></div>"<<endl;
-    /*cout << "<th >DNI</th>"<< endl;
-    cout << "<th >Apellido</th>"<< endl;
-    cout << "<th >Nombre</th>"<< endl;
-    cout << "<th >Organizaci&oacute;n</th>"<< endl;
-    cout << "<th >Domicilio</th>" << endl;*/
+    cout << "<thead><tr>" << endl;
+    cout << "</tr></thead>" << endl;
     cout << "<tbody><tr>" << endl;
     this->listar();
+    cout << "</tr>" << endl;
     cout << "</tr></tbody>" << endl;
-    cout<<"<div class='centrar'><h2>Crear Persona</h2></div>"<<endl;
+    cout << "</table>" << endl;
+    cout<<"<div class='centrar'><h3>Crear Persona</h3></div>"<<endl;
     cout<<"<form class='form-signin'  method='post'>"<<endl;
     cout<<"<label for='nombre' class='sr-only'>Nombre</label>"<<endl;
-    cout<<"<input type='text' id='nombre' name='nombre' class='form-control' placeholder='Name' required autofocus>"<<endl;
+    cout<<"<input type='text' id='nombre' name='nombre' class='form-control' placeholder='Nombre' required autofocus>"<<endl;
     cout<<"<label for='apellido' class='sr-only'>Apellido</label>"<<endl;
-    cout<<"<input type='text' id='apellido' name='apellido' class='form-control' placeholder='Last Name' required>"<<endl;
+    cout<<"<input type='text' id='apellido' name='apellido' class='form-control' placeholder='Apellido' required>"<<endl;
     cout<<"<label for='dni' class='sr-only'>Dni</label>"<<endl;
     cout<<"<input type='text' id='dni' name='dni' class='form-control' placeholder='Dni' required>"<<endl;
     cout<<"<br>"<<endl;
     cout<<"<br>"<<endl;
-    cout<<"<button name='button_agregar_persona' type='submit'>Send</button>"<<endl;
+    cout<<"<button name='button_agregar_persona' type='submit'>Enviar</button>"<<endl;
     cout<<"</form>"<<endl;
     cout<<"</div></body></html>"<<endl;
 
@@ -123,7 +124,6 @@ void Persona::recibir(string id, string dni, string nombre, string apellido){
   cout << "<input type='text' name='nombre2' id='nombre2' value="+nombre+" >" << endl;
   cout<<"<label for='apellido2' >Apellido</label>"<<endl;
   cout << "<input type='text' name='apellido2' id='apellido2' value="+apellido+" >" << endl;
-
   cout<<"<button name='button_cambiar' type='submit'>Guardar y Volver</button>"<<endl;
   cout<<"</form>"<<endl;
   cout<<"</div></body></html>"<<endl;
