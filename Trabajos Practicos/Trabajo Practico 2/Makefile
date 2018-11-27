@@ -4,7 +4,7 @@ OBJS =		main.o domicilio.o organizacion.o persona.o myconnection.o
 
 LIBS =		-lmysqlcppconn -lmysqlcppconn-static
 
-TARGET =	Trabajo Practico 2
+TARGET =	/var/www/cgi-bin/trabajopractico2
 
 $(TARGET):	$(OBJS)
 	$(CXX) -o $(TARGET) $(OBJS) $(LIBS)

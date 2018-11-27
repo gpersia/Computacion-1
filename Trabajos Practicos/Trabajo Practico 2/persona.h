@@ -11,23 +11,25 @@ class Persona
 {
     public:
         Persona();
-        Persona(long , string, string, int);
+        Persona(long , int, string, string);
 
-        void ingresar();
-        void mostrar();
-        void crear();
-        void eliminar();
-        void modificar();
-
-        void setDni(long );
+        void setDni(long);
         long  getDni();
         void setApellido(string);
         string getApellido();
         void setNombre(string);
         string getNombre();
-        int getid();  //aca pongo primero el get y despues el set porque lo pide por pantalla
+        int getid();
         void setid(int);
 
+        void as(string);
+        void inicio();
+        void agregar();
+        void listar();
+        void prueba();
+        void eliminar(string);
+        void recibir(string,string,string,string);
+        void modificar(string,string,string,string);
     protected:
 
     private:
